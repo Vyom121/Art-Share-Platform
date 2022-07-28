@@ -15,4 +15,5 @@ Screenshots of My Project
 
 Azure Services used
 
-1.
+1. Azure Web app service: I will be using this service for deployment of my website from github to azure cloud services so it will be accessible to the people over the internet
+2. Azure Bot Service: Which will help the new user to know more about the website and guide them what website is all about and much more things.
