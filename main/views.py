@@ -1,7 +1,7 @@
 from asyncio.windows_events import NULL
 from atexit import register
 from cProfile import Profile
-
+import _overlapped 
 from operator import pos
 from pickle import NONE
 from re import A
