@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'mainart'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6BBC61EFB9AC4131ADBB45EBD0609C7A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_24A56D419C6E46EEB4D4DE9AF3F621E8 }}
