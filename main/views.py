@@ -1,14 +1,3 @@
-
-from atexit import register
-from cProfile import Profile
-
-from operator import pos
-from pickle import NONE
-from re import A
-import re
-from subprocess import call
-
-
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.models import User,auth
@@ -27,19 +16,6 @@ from itertools import chain
 # Create your views here.
 def home(request):
     return render(request,"home page.html")
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @login_required(login_url='signin')
 def index(request):
